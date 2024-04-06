@@ -9,7 +9,7 @@ public class MaxSumSubArrayOfSizeK {
 
     public static void main(String[] args) {
 
-        System.out.println(findMaxSumSubArray(new int[]{2, 1, 5, 1,3,2}, 3));
+        System.out.println(findMaxSumSubArray(new int[]{2, 1, 5, 1, 3, 2}, 3));
     }
 
 
