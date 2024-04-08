@@ -17,7 +17,7 @@ public class MaxFruitCountOf2Types {
         for (int windowEnd = 0; windowEnd < arr.length; windowEnd++) {
             fruitMapFreq.put(arr[windowEnd], fruitMapFreq.getOrDefault(arr[windowEnd], 0) + 1);
             while (fruitMapFreq.size() > 2) {
-                fruitMapFreq.put(arr[windowStart], fruitMapFreq.getOrDefault(arr[windowStart], 0) - 1);
+                fruitMapFreq.put(arr[windowStart], fruitMapFreq.get(arr[windowStart]) - 1);
                 if (fruitMapFreq.get(arr[windowStart]) == 0) {
                     fruitMapFreq.remove(arr[windowStart]);
                 }
