@@ -1,8 +1,6 @@
 package SlidingWindow;
 
 import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
 
 /*
 Given an array, find the average of all contiguous subarrays of size ‘K’ in it.
@@ -39,7 +37,7 @@ public class AverageOfSubarrayOfSizeK {
                 sum += arr[j];
             }
             result[i] = sum / arr.length;
-            LinkedList
+
         }
         return result;
     }
